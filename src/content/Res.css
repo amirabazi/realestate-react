@@ -1,0 +1,273 @@
+
+
+@media only screen and (max-width: 1450px) {
+
+    .main {
+        padding-top: 3rem;
+        justify-content: space-evenly;
+    }
+
+    .mainRight{
+        margin: 4rem 0rem;
+    }
+
+    .mainLeft{
+        display: flex;
+        align-items: center
+    }
+
+    .img-wrapper{
+        height: 400px;
+        width: 350px;
+    }
+}
+
+
+@media only screen and (max-width: 1140px) {
+
+    .img-wrapper{
+        height: 350px;
+        width: 300px;
+    }
+
+    .main{
+        padding-top: 5rem;
+    }
+
+    .mainRight.second{
+        margin-top: -12rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .mainRight{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin:  0;
+    }
+    
+    .img-wrapper{
+        height: 220px;
+        width: 330px;
+        margin:1rem 0;
+        
+    }
+
+    .img-wrapper:last-child {
+        height: 220px;
+        width: 660px;
+        margin:0;
+        margin-top: 1rem;
+    }
+
+    .main{
+        padding-top:0;
+    }
+
+    .footer{
+        margin-top:2rem;
+    }
+
+    .mainLeft h1{
+        font-size: 3rem;
+    }
+
+    .navLeft{
+        font-size: 22px;
+    }
+
+    .navRight{
+        font-size: 16px;
+    }
+
+    .mainRight.second p{
+        margin-top:-8rem;
+        font-size: 1.1rem;        
+      }        
+}
+
+@media only screen and (max-width: 840px) {
+    .navSelect{
+        margin:1rem;
+    }
+
+    .contactRight h1{
+        font-size: 3rem;;
+    }
+
+    .formh1{
+        font-size: 3rem;
+    }
+
+    .formInput{
+        width:7rem;
+    }
+
+    .formInputInside{
+        width:7rem;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .main.contact{
+        background: linear-gradient(to bottom, #111116 50%, rgba(255, 255, 255, 0.938) 50%);
+        flex-direction: column-reverse;
+    }
+
+    .contactRight h1{
+        color:white;
+        font-size: 1.5rem;
+    }
+    .contactRight p{
+        color:white;
+    }
+    .contactRight span{
+        color:white;
+    }
+
+    .formh1{
+        color:black;
+        font-size: 1.5rem;
+    }
+
+    .formBtn{
+        background-color: black;
+        color:white;
+    }
+}
+
+@media only screen and (max-width: 730px) {  
+
+   .navRight{
+       display: none;
+   }
+
+   .hamActive{
+       display: flex;
+       margin: 0;
+       margin-top:5rem;
+       justify-content: center;
+       align-items: center;
+       position:absolute;
+       width: 100%;
+       background-color: rgba(95, 95, 95, 0.274);    
+   }
+
+   .navBar{
+    position:relative;
+    position: unset;
+    }
+
+    .navBarActive{
+        position: relative;
+        position: unset;
+        opacity: 0;
+    }
+
+   .main{
+       padding-top:0;
+    }
+
+   .mainRight{
+       margin:0;
+    }
+
+   .img-wrapper{
+        height: 150px;
+        width: 420px;
+        margin:1rem 0;    
+    }
+
+    .img-wrapper:last-child {
+        height: 150px;
+        width: 420px;        
+    }
+
+    .mainLeft h1{
+        font-size: 2.5rem;
+    }
+
+    .hamburgerMenu{
+        display: inline;
+    }
+
+    .navBar{
+        justify-content: space-evenly;
+    }
+
+    .navLeft{
+        margin:0;
+    }
+
+    .footer{
+        display: none;
+    }
+    .mainRight.second p{        
+        width:400px;        
+    }
+    .mainRight.second h1{
+        font-size: 2rem;
+    }
+    .emailname{
+        flex-direction: column;
+    }
+    .contactRight h1{
+        font-size: 2rem;;
+    }
+    .formh1{
+        font-size: 2rem;
+    }   
+}
+
+@media only screen and (max-width: 470px) {   
+
+    .img-wrapper{
+        height: 150px;
+        width: 320px;
+        margin:1rem 0;    
+        }
+
+    .img-wrapper:last-child {
+        width: 320px;
+        margin:1rem 0;    
+    }
+
+    .mainRight.second p{
+        font-size:1rem;
+        width: 300px;
+    }
+
+    .mainLeft.second h1{
+        font-size: 2.5rem;
+    }
+
+    .main.contact{
+        background: linear-gradient(to bottom, #111116 50%, rgba(255, 255, 255, 0.938) 50%);
+        flex-direction: column-reverse;
+    }
+
+    .contactRight h1{
+        color:white;
+        font-size: 1.5rem;
+    }
+
+    .contactRight p{
+        color:white;
+    }
+
+    .contactRight span{
+        color:white;
+    }
+
+    .formh1{
+        color:black;
+        font-size: 1.5rem;
+    }
+
+    .formBtn{
+        background-color: black;
+        color:white;
+    }
+    
+}

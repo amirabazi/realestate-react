@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #FFF;
+}
+#root{
+  margin:0;
+  padding:0;
+  
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin:0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  background-color: #111116;
+  overflow-x: hidden;  
+}
+
+.navBar{  
+  position:sticky;
+  position:-webkit-sticky;
+  top:0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+  height: 5rem;    
+  align-items: center;  
+  border-bottom: 0.5px solid #c49b9b2f;    
+}
+
+.main.second{
+  margin:0;
+  background-color: rgba(255, 255, 255, 0.938);
+  padding: 0 5rem;
+  flex-direction: row-reverse;
+}
+
+.main.second h1{
+  color:rgba(0, 0, 0, 0.911);
+}
+
+.mainLeft.second span{  
+    color: #5a4444;     
+}
+
+.mainRight.second p{
+  color:black;
+  font-size: 1.2rem;
+  width:700px;
+  text-align: center
+}
+
+.navBarActive{
+  position:sticky;
+  position:-webkit-sticky;
+  top:0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+  height: 5rem;  
+  background-color: rgba(134, 134, 134, 0.849);
+  align-items: center;  
+  border-bottom: 0.5px solid #c49b9b2f;  
+}
+
+.navLeft{
+  margin-left: 5rem;
+  font-size: 24px;
+}
+
+.navLeft:hover{
+  opacity: 0.8;
+}
+
+.navRight{
+  margin-right: 5rem;
+  font-size: 18px;  
+}
+
+.navSelect{
+  margin: 2rem;
+  color: #fff;
+}
+
+.navSelect:hover{
+  opacity: 0.9;
+  color:#d19d9d;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5rem;
+  flex-wrap: wrap;
+  height: 760px;  
+}
+
+.mainRight{
+  display: flex;
+  margin:5rem 0rem;
+}
+
+.img-wrapper{
+  width:300px;
+  height: 600px;
+  margin:0 1rem;    
+  box-shadow: 0 0 3px #c49b9b;
+}
+
+.img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+}
+
+.mainLeft h1{
+  font-size: 4rem;  
+  line-height: 3.5rem;
+  margin:1.5rem;
+}
+
+.mainLeft span{
+  color: #c49b9b;  
+}
+
+.learnMore:hover{
+  opacity: 0.8;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;    
+}
+
+.pageCount{
+  margin-left: 5rem;    
+}
+
+.pageCount span{
+  margin:.5rem;
+  color: #fff;  
+  cursor: pointer;
+}
+
+.pageCount span:hover{
+  opacity: 0.8;
+}
+
+.nextPage{
+  margin-right: 5rem;
+  color: #c49b9b;
+  cursor: pointer;
+}
+
+.nextPage span:hover{
+  opacity: 0.8;
+}
+
+.hamburgerMenu{
+  display: none;
+}
+
+.main.contact{
+  background: linear-gradient(90deg, #111116 50%, rgba(255, 255, 255, 0.938) 50%);
+  margin:0;
+}
+
+.form{
+  width:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contactRight{
+  width:50%;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input,textarea,button{
+  color:black;
+}
+
+.contactRight p{
+  color:black;
+}
+
+.contactRight span{
+  color:black;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.contactRight h1{
+  color: black;
+  font-size: 4rem;
+  margin-top:-1rem; 
+}
+
+.formh1{
+  font-size: 4rem;
+  margin:1rem;  
+}
+
+.formInput{
+  padding: 0.5rem;
+  width:50%;
+  margin-bottom: 0.5rem;
+}
+
+.formInput:hover{ 
+  opacity: 0.8;
+}
+
+.formBtn{
+  width:30%;
+  background-color: #fff;
+  border:none;
+  border-radius: .25rem;;
+  padding:.5rem;
+}
+
+.formBtn:hover{
+  background-color: #cfa8a8;
+}
+
+
