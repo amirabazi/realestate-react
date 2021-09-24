@@ -31,8 +31,7 @@ function Navbar() {
             <div className={hamburger ? "hamActive" : "navRight"}>
                 <a href="#topdiv" className='navSelect'>Home</a>
                 <a href='/#aboutdiv' className='navSelect'>About</a>
-                <a href='/#contactdiv' className='navSelect'>Contact</a>
-                <a href='#collectiondiv' className='navSelect'>Collection</a>
+                <a href='/#contactdiv' className='navSelect'>Contact</a>                
             </div>
         </nav>
     )

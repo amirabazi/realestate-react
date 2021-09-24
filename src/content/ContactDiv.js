@@ -5,10 +5,10 @@ function ContactDiv() {
         <div id='contactdiv' className='main contact'>
             <form className='form' action="">
                 <h1 className='formh1'>Get in touch</h1>
-                <input className='formInput' placeholder='Email' type="text" />
-                <input className='formInput' placeholder='Name' type="text" />
-                <input className='formInput' placeholder='Subject' type="text" />
-                <textarea className='formInput' placeholder='Message'></textarea>
+                <input className='formInput' placeholder='Email' type="text" required/>
+                <input className='formInput' placeholder='Name' type="text" required />
+                <input className='formInput' placeholder='Subject' type="text" required />
+                <textarea className='formInput' placeholder='Message' required></textarea>
                 <button className='formBtn'>Send</button>
             </form>
             <div className='contactRight'>

@@ -21,6 +21,18 @@ body{
   overflow-x: hidden;  
 }
 
+.img{
+  opacity: .7;
+  transition: 0.5s ease-in-out;  
+ 
+}
+
+.img:hover{  
+  opacity: 1;
+  transform:translateY(1%)
+  
+}
+
 .navBar{  
   position:sticky;
   position:-webkit-sticky;
@@ -33,6 +45,10 @@ body{
   border-bottom: 0.5px solid #c49b9b2f;    
 }
 
+.appName{
+  color:#d19d9d
+}
+
 .main.second{
   margin:0;
   background-color: rgba(255, 255, 255, 0.938);
@@ -42,6 +58,7 @@ body{
 
 .main.second h1{
   color:rgba(0, 0, 0, 0.911);
+  text-align: center;
 }
 
 .mainLeft.second span{  
@@ -109,14 +126,14 @@ body{
 .img-wrapper{
   width:300px;
   height: 600px;
-  margin:0 1rem;    
-  box-shadow: 0 0 3px #c49b9b;
+  margin:0 1rem;
+  
 }
 
 .img{
   width: 100%;
   height: 100%;
-  object-fit: cover;  
+  object-fit: cover;    
 }
 
 .mainLeft h1{
@@ -125,8 +142,17 @@ body{
   margin:1.5rem;
 }
 
+
 .mainLeft span{
   color: #c49b9b;  
+  font-size: 1.5rem;
+}
+
+
+
+.mainLeft span:hover:last-child{
+  color:white;
+  
 }
 
 .learnMore:hover{
@@ -168,7 +194,7 @@ body{
 
 .main.contact{
   background: linear-gradient(90deg, #111116 50%, rgba(255, 255, 255, 0.938) 50%);
-  margin:0;
+  margin:0;  
 }
 
 .form{
@@ -198,7 +224,7 @@ input,textarea,button{
 .contactRight span{
   color:black;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .contactRight h1{
@@ -216,6 +242,8 @@ input,textarea,button{
   padding: 0.5rem;
   width:50%;
   margin-bottom: 0.5rem;
+  border: none;
+  box-shadow: 0 0 5px #c49b9b;
 }
 
 .formInput:hover{ 
@@ -228,6 +256,9 @@ input,textarea,button{
   border:none;
   border-radius: .25rem;;
   padding:.5rem;
+  box-shadow: 0 0 5px #c49b9b;
+  font-weight: bold;
+  font-size: 1rem;    
 }
 
 .formBtn:hover{
